@@ -11,4 +11,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Api Tests
-        run: newman run "RestfulBookerBVT.postman_collection.json" -e "Restful Booker BVT Mock.postman_environment"
+        run: newman run "RestfulBookerBVT.postman_collection.json" -e Production.postman_environment.json
